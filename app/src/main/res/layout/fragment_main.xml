@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="270dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="32dp"
+        android:src="@drawable/cover_photo" />
+
+    <TextView
+        android:id="@+id/appTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="My Baguio Destinations "
+        android:textAlignment="center"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="30sp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+
+        <ImageButton
+            android:id="@+id/food_trip_button"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:src="@drawable/foodtripimagebutton__10_" />
+
+
+        <ImageButton
+            android:id="@+id/schools_button"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:src="@drawable/schools__1_" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/parks_button"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:src="@drawable/parks__1_" />
+
+
+        <ImageButton
+            android:id="@+id/gyms_button"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:src="@drawable/gyms__1_"/>
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/cafe_button"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:src="@drawable/cafe__1_"/>
+
+
+</LinearLayout>
